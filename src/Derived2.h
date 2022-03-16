@@ -1,5 +1,5 @@
 //
-// Created by jeffr on 16/3/2022.
+// Created by jeffry on 16/3/2022.
 //
 
 #ifndef LAB01_INHERITANCE_DERIVED2_H

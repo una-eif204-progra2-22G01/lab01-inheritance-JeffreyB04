@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(lab01_Inheritance
-        Lab01Inheritance.cpp Base.cpp Derived1.cpp Derived2.cpp)
+        src/Main.cpp src/Base.cpp src/Derived1.cpp src/Derived2.cpp)

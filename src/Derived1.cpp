@@ -7,7 +7,7 @@
 void Derived1::doSomething(){
 cout<<"Derived1"<<endl;
 }
-
+//default
 Derived1::Derived1() {}
 
 Derived1::~Derived1() {

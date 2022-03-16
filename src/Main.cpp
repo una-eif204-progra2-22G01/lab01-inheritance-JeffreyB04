@@ -1,8 +1,8 @@
-//Main here so i do not require to make another .cpp
+
 #include"Derived1.h"
 #include"Derived2.h"
 // function main begins program execution
-int main(int argc, const char *argv[]) {
+int main() {
     cout << "Welcome to the UNA!" << endl;
 
     Derived1 derived1;
