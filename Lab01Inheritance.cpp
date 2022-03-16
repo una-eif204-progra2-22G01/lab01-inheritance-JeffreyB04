@@ -1,29 +1,14 @@
-#include <iostream>  // allows program to output data to the screen
-
-struct Base {
-    virtual void do_something() {}
-};
-
-struct Derived1 : Base {
-    virtual void do_semothing() {
-        std::cout << "Derived1!!!" << std::endl;
-    }
-};
-
-struct Derived2 : Base {
-    virtual void do_semothing() {
-        std::cout << "Derived2!!!" << std::endl;
-    }
-};
-
+//Main here so i do not require to make another .cpp
+#include"Derived1.h"
+#include"Derived2.h"
 // function main begins program execution
 int main(int argc, const char *argv[]) {
-    std::cout << "Welcome to the UNA!" << std::endl;
+    cout << "Welcome to the UNA!" << endl;
 
     Derived1 derived1;
-    derived1.do_semothing();
+    derived1.doSomething();
 
     Derived2 derived2;
-    derived2.do_semothing();
+    derived2.doSomething();
 
 }  // end function main
