@@ -1,9 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
-project(lab01_Inheritance)
+project(lab01)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
-
-add_executable(lab01_Inheritance
-        src/Main.cpp src/Base.cpp src/Derived1.cpp src/Derived2.cpp)
+include_directories(src)
+add_subdirectory(src)
