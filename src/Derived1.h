@@ -11,8 +11,7 @@ public:
     Derived1();
 
     virtual ~Derived1();
-
-    virtual void doSomething();
+    void doSomething() override;
 };
 
 

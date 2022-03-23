@@ -12,7 +12,7 @@ public:
 
     virtual ~Derived2();
 
-    virtual void doSomething();
+    void doSomething() override;
 };
 
 
